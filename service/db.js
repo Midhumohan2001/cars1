@@ -7,7 +7,17 @@ const Car = mongoose.model('Car',{
     name: String,
   price:Number,
   image:String,
-    description : String
+    details : String,
+    engine_cc:Number,
+    manufacturer :String,
+  
+    torque:Number,
+    fuel:String,
+    numberplate:String
+
+    
+
+    
     
 })
 
